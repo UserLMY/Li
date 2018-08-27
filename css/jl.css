@@ -1,0 +1,157 @@
+@charset "utf-8";
+.A{
+	box-sizing:border-box;
+	margin:0px auto;
+	width:700px;
+	height:200px;
+	background-color:#FFF;
+    text-align:center;
+    font-size:5px;
+}
+.tx{
+	padding-top:20px;
+	width:234px;
+	height:190px;
+	background-color:#00FFFF;
+	color:#000;
+    text-align:center;
+    line-height:102px;
+	float:left;
+	font-size:10px;
+}
+.tx:hover{
+	         transition: all 1s;
+	         transform: rotateY(360deg);
+          }
+.js{
+	width:466px;
+	height:210px;
+	background-color:#ECFfff;
+	color:#000;
+    text-align:center;
+    line-height:30px;
+	float:right;
+	font-size:10px;
+}
+.js:hover{
+	         transition: all 1s;
+	         transform: rotateY(-360deg);
+          }
+.tx img{
+	border-radius:15px;
+	width:150px;
+	box-shadow:5px 5px 5px 5px #000000ed;
+	transition:all 2s;
+	
+}
+
+.tx img:hover{
+	transform: rotate(7200deg) scale(2,2) translate(120px,50px);
+}
+
+.container{
+	margin:0px auto;
+	width:700px;
+	height:460px;
+    animation:myfist 20s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes myfist{
+	0%  {background-image:url("../images/img_1.jpg");}
+	25%  {background-image:url("../images/img_2.jpg");}
+	50%  {background-image:url("../images/img_3.jpg");}
+	75%  {background-image:url("../images/img_4.jpg");}
+	100%  {background-image:url("../images/img_5.jpg");}
+	
+}
+.menu{
+	width:234px;
+	height:460px;
+	list-style:none;
+	border:0px solid #f00;
+	padding:0px;
+	background:rgba(0,0,0,0.6);
+	color:#fff;
+	text-align:center;
+}
+
+
+
+.menu li{
+	padding:0px;
+	height:42px;
+	border:0px solid #000;
+	line-height:42px;
+	text-align:center;
+    transition:background-color 1s;
+}
+.menu li span{
+	
+	
+	margin-right:80px;
+    
+}
+
+.menu li:hover{
+	background-color:blue;
+}
+
+
+.menu li:hover .item-1{
+	display:block;
+}
+
+.item-1{
+	display:none;
+	margin-top:-60px;
+}
+
+.menu li:hover .item-2{
+	display:block;
+}
+
+.item-2{
+	display:none;
+	margin-top:-102px;
+}
+.menu li:hover .item-3{
+	display:block;
+}
+
+.item-3{
+	display:none;
+	margin-top:-144px;
+}
+.menu li:hover .item-4{
+	display:block;
+}
+
+.item-4{
+	display:none;
+	margin-top:-186px;
+}
+
+.item{
+	width:466px;
+	height:460px;
+	background-color:#ECFfff;
+	margin-left:234px;
+	line-height:30px;
+}
+
+
+.item-menu{
+	list-style:none;
+	padding:0px;
+	line-height:30px;
+}
+
+.item-menu li{
+	line-height:30px;
+	padding:0px;
+	height:120px;
+	width:180px;
+	color:#000;
+}
+
