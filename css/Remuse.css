@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+
+.container{
+	position:absolute;
+	left:15px;
+	top:15px;
+	width:1000px;
+	height:800XP;
+	background-color:#a7cba5;
+	
+}
+
+.item-left{
+	float:left;
+	width:148px;
+	height:800px;
+	border-right:2px #5e5e5e solid;
+}
+
+
+.item-left-top{
+	float:top;
+	width:148px;
+	height:190px;
+	padding:5px;
+}
+
+.item-left-top img{
+	width:138px;
+	height:190px;
+}
+
+.item-left-buttom{
+	width:148px;
+	height:600px;
+	line-height:center;
+}
+
+
+.item-left-buttom-1{
+	width:148px;
+	height:100px;
+	background-color:#f00;
+	text-align:center;
+	line-height:100px;
+}
+
+
+.item-left-buttom-2{
+	width:148px;
+	height:100px;
+	background-color:#0f0;
+	text-align:center;
+	line-height:100px;
+}
+
+
+.item-left-buttom-3{
+	width:148px;
+	height:100px;
+	background-color:#00f;
+	text-align:center;
+	line-height:100px;
+}
+
+
+.item-left-buttom-4{
+	width:148px;
+	height:100px;
+	background-color:#ff0;
+	text-align:center;
+	line-height:100px;
+}
+
+
+.item-left-buttom-5{
+	width:148px;
+	height:100px;
+	background-color:#f0f;
+	text-align:center;
+	line-height:100px;
+}
+
+
+
+
+
+
+
+
+
+.item-right-top{
+	float:left;
+	width:850px;
+	height:200px;
+	background-color:#0ff;
+}
+
+.item-right-top tr{
+	height:40px;
+	width:850px;
+	line-height:40px;
+}
+
+.item-right-top-1{
+	height:50px;
+	width:850px;
+	line-height:50px;
+	text-align:center;
+	font-size:120%;
+	font-weight:bold;
+	background-color:#0ff;
+}
+
+
+.item-right-buttom{
+	float:right;
+	width:850px;
+	height:100px;
+}
+
+
+
+
+.item-right-buttom-1{
+	float:right;
+	width:850px;
+	height:100px;
+	background-color:#f00;
+	line-height:100px;
+}
+
+
+
+.item-right-buttom-2{
+	float:right;
+	width:850px;
+	height:100px;
+	background-color:#0f0;
+}
+
+
+
+.item-right-buttom-3{
+	float:right;
+	width:850px;
+	height:100px;
+	background-color:#00f;
+	line-height:50px;
+}
+
+
+
+.item-right-buttom-4{
+	float:right;
+	width:850px;
+	height:100px;
+	background-color:#ff0;
+	line-height:50px;
+}
+
+
+
+.item-right-buttom-5{
+	float:right;
+	width:850px;
+	height:100px;
+	background-color:#f0f;
+	line-height:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
