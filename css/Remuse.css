@@ -3,19 +3,19 @@
 
 .container{
 	position:absolute;
-	left:15px;
+	left:50px;
+	right:50px;
 	top:15px;
-	width:1000px;
+	width:800px;
 	height:800XP;
-	background-color:#a7cba5;
-	
+	background-color:#9be6d9;
 }
 
 .item-left{
 	float:left;
 	width:148px;
 	height:800px;
-	border-right:2px #5e5e5e solid;
+	border-right:2px #808080 solid;
 }
 
 
@@ -35,51 +35,47 @@
 	width:148px;
 	height:600px;
 	line-height:center;
+	color:red;
 }
 
 
 .item-left-buttom-1{
 	width:148px;
-	height:100px;
-	background-color:#f00;
+	height:120px;
 	text-align:center;
-	line-height:100px;
+	line-height:120px;
 }
 
 
 .item-left-buttom-2{
 	width:148px;
-	height:100px;
-	background-color:#0f0;
+	height:120px;
 	text-align:center;
-	line-height:100px;
+	line-height:120px;
 }
 
 
 .item-left-buttom-3{
 	width:148px;
-	height:100px;
-	background-color:#00f;
+	height:120px;
 	text-align:center;
-	line-height:100px;
+	line-height:120px;
 }
 
 
 .item-left-buttom-4{
 	width:148px;
-	height:100px;
-	background-color:#ff0;
+	height:120px;
 	text-align:center;
-	line-height:100px;
+	line-height:120px;
 }
 
 
 .item-left-buttom-5{
 	width:148px;
-	height:100px;
-	background-color:#f0f;
+	height:120px;
 	text-align:center;
-	line-height:100px;
+	line-height:120px;
 }
 
 
@@ -92,32 +88,31 @@
 
 .item-right-top{
 	float:left;
-	width:850px;
+	width:650px;
 	height:200px;
-	background-color:#0ff;
 }
 
 .item-right-top tr{
 	height:40px;
-	width:850px;
+	width:650px;
 	line-height:40px;
 }
 
 .item-right-top-1{
 	height:50px;
-	width:850px;
+	width:650px;
 	line-height:50px;
 	text-align:center;
 	font-size:120%;
 	font-weight:bold;
-	background-color:#0ff;
 }
 
 
 .item-right-buttom{
 	float:right;
-	width:850px;
-	height:100px;
+	width:650px;
+	height:120px;
+	color:#00f;
 }
 
 
@@ -125,49 +120,45 @@
 
 .item-right-buttom-1{
 	float:right;
-	width:850px;
-	height:100px;
-	background-color:#f00;
-	line-height:100px;
+	width:650px;
+	height:120px;
+	line-height:120px;
 }
 
 
 
 .item-right-buttom-2{
 	float:right;
-	width:850px;
-	height:100px;
-	background-color:#0f0;
+	width:650px;
+	height:120px;
 }
 
 
 
 .item-right-buttom-3{
 	float:right;
-	width:850px;
-	height:100px;
-	background-color:#00f;
-	line-height:50px;
+	width:650px;
+	height:60px;
+	padding-bottom:30px;
+	padding-top:30px;
 }
 
 
 
 .item-right-buttom-4{
 	float:right;
-	width:850px;
-	height:100px;
-	background-color:#ff0;
-	line-height:50px;
+	width:650px;
+	height:60px;
+	padding-bottom:30px;
+	padding-top:30px;
 }
 
 
 
 .item-right-buttom-5{
 	float:right;
-	width:850px;
-	height:100px;
-	background-color:#f0f;
-	line-height:50px;
+	width:650px;
+	height:120px;
 }
 
 
